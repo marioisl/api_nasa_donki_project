@@ -184,18 +184,14 @@ Método: GET
 URL: https://api-nasa-donki-project.onrender.com/api/instrument_usage
 Descripción: Calcula el porcentaje de uso de cada instrumento en todas las actividades.
 
-Obtener el porcentaje de uso de un instrumento específico
-Método: GET
-URL: https://api-nasa-donki-project.onrender.com/api/instrument_usage/{instrument_name}
-Descripción: Devuelve el porcentaje de uso de un instrumento específico.
-Parámetro: Reemplazar {instrument_name} por el nombre del instrumento (por ejemplo: MODEL: SWMF).
-Ejemplo de URL:
-https://api-nasa-donki-project.onrender.com/api/instrument_usage/MODEL: SWMF
-En Body colocar Raw, colocar Json como opción y escribir
-{
-  "instrument_name": "STEREO A: SECCHI/COR2"
-}
-Para saber el % específico
+En Postman se puede obtener el cuarto procedimiento
+Obtener el porcentaje de uso de un instrumento específico Método: POST
+https://api-nasa-donki-project.onrender.com/api/instrument_usage_by_activity
+Descripción: Devuelve el porcentaje de uso de un instrumento específico. 
+Parámetro: Reemplazar {instrument_name} por el nombre del instrumento (por ejemplo: SECCHI/COR2). 
+Ejemplo de URL: https://api-nasa-donki-project.onrender.com/api/instrument_usage_by_activity 
+En Body colocar Raw, colocar Json como opción y escribir {  "instrument_name": "STEREO A: SECCHI/COR2"}
+ Para saber el % específico
 
 De todas maneras se puede visualizar en el Revisar el Json de Postman adjunto llamado Nasa Donki Api.postman_collection.json
 

@@ -158,7 +158,7 @@ http://localhost:5000/api/instrument/instrument_usage/MODEL%3A%20SWMF
 Este proyecto puede ser desplegado en [Vercel](https://vercel.com/)
 
 ## Postman Collection
-Revisar el Json de Postman
+Revisar el Json de Postman (Nasa Donki Api.postman_collection.json)
 
 
 ## Licencia

@@ -168,7 +168,36 @@ http://localhost:5000/api/instrument/instrument_usage/MODEL%3A%20SWMF
 Este proyecto puede ser desplegado en [Vercel](https://vercel.com/)
 
 ## Postman Collection
-Revisar el Json de Postman (Nasa Donki Api.postman_collection.json)
+
+Obtener todas las IDs de actividades
+Método: GET
+URL: https://api-nasa-donki-project.onrender.com/api/activity_ids
+Descripción: Devuelve todas las activityID disponibles.
+
+Obtener todos los instrumentos utilizados en las mediciones
+Método: GET
+URL: https://api-nasa-donki-project.onrender.com/api/instruments
+Descripción: Devuelve una lista de los instrumentos detectados en las actividades de las rutas seleccionadas.
+
+Obtener el porcentaje de uso de cada instrumento
+Método: GET
+URL: https://api-nasa-donki-project.onrender.com/api/instrument_usage
+Descripción: Calcula el porcentaje de uso de cada instrumento en todas las actividades.
+
+Obtener el porcentaje de uso de un instrumento específico
+Método: GET
+URL: https://api-nasa-donki-project.onrender.com/api/instrument_usage/{instrument_name}
+Descripción: Devuelve el porcentaje de uso de un instrumento específico.
+Parámetro: Reemplazar {instrument_name} por el nombre del instrumento (por ejemplo: MODEL: SWMF).
+Ejemplo de URL:
+https://api-nasa-donki-project.onrender.com/api/instrument_usage/MODEL: SWMF
+En Body colocar Raw, colocar Json como opción y escribir
+{
+  "instrument_name": "STEREO A: SECCHI/COR2"
+}
+Para saber el % específico
+
+De todas maneras se puede visualizar en el Revisar el Json de Postman adjunto llamado Nasa Donki Api.postman_collection.json
 
 
 ## Licencia

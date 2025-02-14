@@ -104,6 +104,16 @@ Ejemplo de respuesta:
   "usage_percentage": 0.3
 }
 
+Acceder al servicio desplegado
+El servicio está desplegado en Render y accesible en el siguiente link:
+🔗 https://api-nasa-donki-project.onrender.com
+
+Puedes probar las siguientes rutas:
+
+https://api-nasa-donki-project.onrender.com/api/activity_ids
+
+https://api-nasa-donki-project.onrender.com/api/instruments
+
 Estructura del Proyecto
 La estructura de archivos del proyecto es la siguiente:
 

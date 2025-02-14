@@ -188,10 +188,9 @@ En Postman se puede obtener el cuarto procedimiento
 Obtener el porcentaje de uso de un instrumento específico Método: POST
 https://api-nasa-donki-project.onrender.com/api/instrument_usage_by_activity
 Descripción: Devuelve el porcentaje de uso de un instrumento específico. 
-Parámetro: Reemplazar {instrument_name} por el nombre del instrumento (por ejemplo: SECCHI/COR2). 
 Ejemplo de URL: https://api-nasa-donki-project.onrender.com/api/instrument_usage_by_activity 
 En Body colocar Raw, colocar Json como opción y escribir {  "instrument_name": "STEREO A: SECCHI/COR2"}
- Para saber el % específico
+Para saber el % específico
 
 De todas maneras se puede visualizar en el Revisar el Json de Postman adjunto llamado Nasa Donki Api.postman_collection.json
 

@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "4a9dbaa8-d6e6-4d7a-8a33-52fdf40fc6b1",
+		"name": "Nasa Donki Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29771792"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/instruments",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"instrument_name\": \"STEREO A: SECCHI/COR2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/instrument_usage_by_activity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"instrument_usage_by_activity"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
